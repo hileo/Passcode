@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PasscodeViewController : UIViewController
+{
+     NSString *type;
 
+}
+@property (nonatomic, assign) NSString *type;
 
 @end
 
